@@ -1,0 +1,67 @@
+section.caixaOperacao {
+    background-color: var(--lighter-grey);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: var(--darker-grey);
+    padding: 15px;
+    border-left: 5px solid #f50303;
+    margin: 4px 5px 3px 10px;
+}
+
+.caixaOperacao p {
+    margin: 0;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prioridade {
+    font-size: 11px;
+    color: var(--white);
+    background-color: #df2a2a;
+    padding: 7px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.descricao {
+    color: var(--darker-grey);
+    margin-bottom: 25px;
+}
+
+.descricao h2 {
+    margin: 1px 0 4px 0;
+}
+
+.descricao p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%px;
+    white-space: nowrap;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .tecnico, .maquina, .cliente {
+    text-transform: uppercase;
+}
+
+.info .infoDireita {
+    text-align: right;
+}
+
+.avaliacao {
+    font-size: 17px;
+    color: #c98116;
+}
+
+section.caixaOperacao:hover {
+    background-color: var(--lighter-grey-hover);
+    cursor: pointer;
+}

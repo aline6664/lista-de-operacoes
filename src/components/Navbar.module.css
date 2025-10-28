@@ -1,0 +1,35 @@
+ul.navBar {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navBar li {
+    display: inline-block;
+    font-size: medium;
+    width: 20%;
+    border-left: 1px
+}
+
+ul.navBar li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: var(--white);
+    background-color: var(--grey);
+    transition: 0.2s;
+}
+
+ul.navBar a:hover {
+    color: var(--white);
+    background-color: var(--light-grey);
+    transition: 0.3s;
+}
+ul.navBar li a.active {
+    color: var(--white);
+    background-color: var(--purple);
+    font-weight: bold;
+}

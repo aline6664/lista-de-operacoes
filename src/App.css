@@ -1,0 +1,68 @@
+/*@font-face {
+  font-family: "Daydream";
+  src:
+    local("Daydream"),
+    url("./assets/fonts/Daydream.ttf") format("truetype");
+}*/
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--primary-text);
+  
+  /* font-family: "Pixel Arial 11", "MS Gothic", "ＭＳ ゴシック", monospace; */
+  font-size: 13px;
+  /* Cursor
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/sparklemulti.ani"),
+          url("https://downloads.totallyfreecursors.com/thumbnails/sparklemulti.gif"),
+          auto;
+   */
+  image-rendering: pixelated;
+}
+
+/*
+a:hover,
+button:hover,
+div.hoverable-image img:hover,
+img.flag:hover,
+img#claw-machine {
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/link172.ani"),
+          url("https://downloads.totallyfreecursors.com/thumbnails/link169.gif"),
+          pointer;
+}
+
+
+section {
+  padding: 15px;
+  background-color: var(--background);
+  height: auto;
+  border-style: solid;
+  border-width: 8px;
+}
+*/
+
+section#main {
+  /*width: 70vw;*/
+  width: 1200px;
+  margin: 0 auto 20px auto;
+  padding: 2em;
+  left: 0;
+  right: 0;
+  flex: 1;
+  border: none;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+div.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

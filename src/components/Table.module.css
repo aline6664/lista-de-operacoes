@@ -1,0 +1,58 @@
+/* This is the main container for the table component */
+.statsContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+  margin-top: 20px;
+}
+
+/* Container title */
+.statsContainer h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* "No data" message */
+.statsContainer p {
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Style for the table itself */
+.statsTable {
+  width: 100%;
+  border-collapse: collapse; /* Removes double borders */
+  margin-top: 16px;
+}
+
+/* Table header styles */
+.statsTable th {
+  background-color: #f9fafb; /* A very light gray for the header */
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600; /* Bolder text for headers */
+  color: #374151; /* Dark gray text */
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* Table cell (data) styles */
+.statsTable td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6; /* Lighter border for rows */
+  color: #4b5563;
+}
+
+/* Zebra-striping for table rows */
+.statsTable tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Hover effect for rows */
+.statsTable tbody tr:hover {
+  background-color: #f0f9ff; /* A light blue hover */
+}
