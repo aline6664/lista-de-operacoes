@@ -1,0 +1,26 @@
+.detalhesModal {
+    padding: 10px;
+}
+
+.banner {
+    height: 20px;
+    background-color: var(--purple);
+}
+
+h1 {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div p {
+    margin: 0;
+}
+
+.estrelas {
+    color: var(--yellow);
+    font-size: 16px;
+}

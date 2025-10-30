@@ -1,0 +1,44 @@
+/* O fundo escuro que cobre a tela inteira */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Preto com 70% de opacidade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Garante que fique na frente de tudo */
+  padding: 20px;
+}
+
+/* A caixa branca do modal */
+.modalContent {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Largura máxima */
+  max-height: 90vh; /* Altura máxima */
+  overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande */
+}
+
+/* O botão 'X' de fechar */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #888;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  color: #000;
+}

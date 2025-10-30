@@ -18,13 +18,26 @@ section.caixaOperacao {
 }
 
 .prioridade {
-    font-size: 11px;
+    font-size: 13px;
     color: var(--white);
-    background-color: #df2a2a;
-    padding: 7px;
-    border-radius: 6px;
+    padding: 2px 7px 2px 7px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* Prioridades */
+.baixo {
+    background-color: #298835;
+}
+.medio {
+    background-color: #d6861e;
+}
+.critico {
+    background-color: #d61e1e;
+}
+.planejado {
+    background-color: #85868b;
 }
 
 .descricao {
@@ -58,7 +71,7 @@ section.caixaOperacao {
 
 .avaliacao {
     font-size: 17px;
-    color: #c98116;
+    color: var(--yellow);
 }
 
 section.caixaOperacao:hover {
