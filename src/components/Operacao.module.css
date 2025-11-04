@@ -4,7 +4,7 @@ section.caixaOperacao {
     border-bottom-right-radius: 8px;
     color: var(--darker-grey);
     padding: 15px;
-    border-left: 5px solid #f50303;
+    border-left: 7px solid #ffffff00;
     margin: 4px 5px 3px 10px;
 }
 
@@ -17,6 +17,13 @@ section.caixaOperacao {
     justify-content: space-between;
 }
 
+.servicoRealizado {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+}
+
 .prioridade {
     font-size: 13px;
     color: var(--white);
@@ -24,20 +31,29 @@ section.caixaOperacao {
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: 20px;
 }
 
 /* Prioridades */
 .baixo {
-    background-color: #298835;
+    background-color: var(--green);
+    border-left-color: var(--green) !important;
 }
 .medio {
-    background-color: #d6861e;
+    background-color: var(--yellow);
+    border-left-color: var(--yellow) !important;
+}
+.alto {
+    background-color: var(--orange);
+    border-left-color: var(--orange) !important;
 }
 .critico {
-    background-color: #d61e1e;
+    background-color: var(--red);
+    border-left-color: var(--red) !important;
 }
 .planejado {
-    background-color: #85868b;
+    background-color: var(--blueish-grey);
+    border-left-color: var(--blueish-grey) !important;
 }
 
 .descricao {

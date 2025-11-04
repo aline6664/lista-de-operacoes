@@ -23,7 +23,6 @@
   width: 100%;
   max-width: 600px; /* Largura máxima */
   max-height: 90vh; /* Altura máxima */
-  overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande */
 }
 
 /* O botão 'X' de fechar */

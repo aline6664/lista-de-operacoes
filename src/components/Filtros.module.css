@@ -1,0 +1,39 @@
+.filtrosContainer {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os filtros quebrem a linha em telas menores */
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin: 24px; /* Espaçamento da lista */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filtroGrupo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Faz os grupos crescerem para preencher o espaço */
+  min-width: 180px; /* Largura mínima para cada filtro */
+}
+
+.filtroGrupo label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 6px;
+}
+
+.filtroGrupo input,
+.filtroGrupo select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.filtroGrupo input:focus,
+.filtroGrupo select:focus {
+  outline: none;
+  border-color: var(--purple);
+  box-shadow: 0 0 0 2px rgba(76, 110, 245, 0.2);
+}

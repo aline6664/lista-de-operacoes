@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: #000;
-  background-color: #f3f2f2;
+  background-color: #e9e9f0;
 
   /* cores */
   --black: #1b181d;
@@ -14,8 +14,13 @@
   --grey: #7c7880;
   --light-grey: #aea4b9;
   --lighter-grey: #dcdadd;
-  --lighter-grey-hover: #c9c6ca;
-  --yellow: #c98116;
+  --lighter-grey-hover: #d8d5da;
+  --red: #d61e1e;
+  --orange: #ff5507;
+  --yellow: #da880d;
+  --green: #298835;
+  --blue: #3d7cf0;
+  --blueish-grey: #85868b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
